@@ -1,0 +1,47 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="450"
+        x:Class="ForDikabraz.MainWindow"
+        Title="ForDikabraz"
+        ExtendClientAreaToDecorationsHint="True"
+        Width="600"
+        Height="450"
+        CanResize="False"
+        WindowStartupLocation="CenterScreen">
+    <Grid Background="MediumPurple">
+        <Label Content="Єто тьі большая вредная жопа?"
+               Margin="100"
+               FontSize="28"
+               Width="450"
+               Foreground="Black"
+               HorizontalContentAlignment="Center"/>
+        <Button Name="bYes"
+                Content="ДА"
+                Foreground="Black"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="15"
+                FontWeight="DemiBold"
+                Margin="220"
+                Height="30"
+                Width="60"
+                Background="Fuchsia"
+                ZIndex="1"
+                Click="bYes_Click"/>
+
+        <Button Name="bNo"
+                Content="НЕ"
+                Foreground="Black"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                FontSize="15"
+                FontWeight="DemiBold"
+                Margin="320, 10"
+                Height="30"
+                Width="60"
+                Background="Fuchsia"
+                PointerEntered="bNo_PointerEntered"/>
+    </Grid>
+</Window>

@@ -1,0 +1,34 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="200"
+        x:Class="ForDikabraz.MessageWindow"
+        WindowStartupLocation="CenterScreen"
+        Width="420"
+        Height="200"
+        CanResize="False"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="NoChrome"
+        Topmost="True">
+    <Grid Background="DarkOrchid">
+        <Label Name="lMessage"
+               Foreground="White"
+               FontWeight="DemiBold"
+               FontSize="22"
+               HorizontalAlignment="Center"
+               Margin="0, 60"/>
+		
+        <Button Name="bOk"
+                Content="OK"
+                FontSize="32"
+                FontWeight="Bold"
+                HorizontalContentAlignment="Center"
+                Background="Magenta"
+                HorizontalAlignment="Center"
+                Width="80"
+                Height="50"
+                Margin="0, 145"
+                Click="bOk_Click"/>
+    </Grid>
+</Window>

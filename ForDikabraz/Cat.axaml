@@ -1,0 +1,53 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="450" d:DesignHeight="400"
+        x:Class="ForDikabraz.Cat"
+        Title="Cat"
+        Topmost="True"
+        WindowStartupLocation="CenterScreen"
+        Width="450"
+        Height="400"
+        CanResize="False"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaChromeHints="NoChrome">
+    <Grid Background="DarkOrchid">
+        <Image Source="/Assets/IMG_1438.PNG">
+        </Image>
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Top"
+                    Margin="30">
+            <Label HorizontalContentAlignment="Center" 
+                   FontSize="18"
+                   FontWeight="DemiBold"
+                   Foreground="White"
+                   Content="Прям как он..."/>
+            <Label HorizontalContentAlignment="Center"
+                   FontSize="18"
+                   FontWeight="DemiBold"
+                   Foreground="White"
+                   Content="Видишь, тьі не один"/>
+            <Label HorizontalContentAlignment="Center"
+                   FontSize="50"
+                   FontWeight="DemiBold"
+                   Foreground="Purple"
+                   Content="💓💗💕"/>
+        </StackPanel>
+		
+        <Button Name="bILoveYou"
+                Content=":3"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Center"
+                Margin="40"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Background="MediumPurple"
+                Foreground="Black"
+                FontSize="29"
+                FontWeight="DemiBold"
+                Width="200"
+                Height="50"
+                Click="Button_Click"/>
+    </Grid>
+</Window>
