@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
-namespace ForDikabraz;
+namespace MoodLift;
 
 public partial class MessageWindow : Window
 {

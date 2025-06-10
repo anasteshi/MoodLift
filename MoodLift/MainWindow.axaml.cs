@@ -2,7 +2,7 @@ using Avalonia.Controls;
 using Avalonia.Media;
 using System.Collections.Generic;
 
-namespace ForDikabraz
+namespace MoodLift
 {
     public partial class MainWindow : Window
     {

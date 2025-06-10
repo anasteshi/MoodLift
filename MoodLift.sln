@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForDikabraz", "ForDikabraz\ForDikabraz.csproj", "{C520C71F-4A42-48AB-9135-C5F0CCD66570}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoodLift", "MoodLift\MoodLift.csproj", "{C520C71F-4A42-48AB-9135-C5F0CCD66570}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

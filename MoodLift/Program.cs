@@ -1,7 +1,7 @@
 ﻿using Avalonia;
 using System;
 
-namespace ForDikabraz;
+namespace MoodLift;
 
 class Program
 {
