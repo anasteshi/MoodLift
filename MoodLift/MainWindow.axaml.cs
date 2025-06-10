@@ -17,11 +17,11 @@ namespace MoodLift
 
         private List<string> Messages = new List<string>(5)
         {
-            "Тьі наверное кнопки перепутал",
-            "Та як це",
-            "Неправда",
-            "Та прям",
-            "Я все поняла"
+            "You must be joking, it's definitely you!",
+            "Oh really?",
+            "Is that so?",
+            "You liar!",
+            "OK, I got you!"
         };
 
         private void bNo_PointerEntered(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
@@ -33,10 +33,11 @@ namespace MoodLift
                 Messages.RemoveAt(0);
             }
             else
-            {
-                Avalonia.Thickness bYesMargin = bYes.Margin;
-                bYes.Margin = bNo.Margin;
-                bNo.Margin = bYesMargin;
+            { 
+                // Avalonia.Thickness bYesMargin = bYes.Margin; 
+                // bYes.Margin = bNo.Margin; 
+                // bNo.Margin = bYesMargin;
+                (bYes.Margin, bNo.Margin) = (bNo.Margin, bYes.Margin);
             }
         }
     }

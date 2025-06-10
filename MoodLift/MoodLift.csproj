@@ -26,6 +26,10 @@
 
     <ItemGroup>
       <None Remove="Assets\IMG_1438.PNG" />
-      <AvaloniaResource Include="Assets\IMG_1438.PNG" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Assets\cat.png" />
+      <AvaloniaResource Include="Assets\cat.png" />
     </ItemGroup>
 </Project>

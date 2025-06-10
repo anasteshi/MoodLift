@@ -11,14 +11,14 @@
         CanResize="False"
         WindowStartupLocation="CenterScreen">
     <Grid Background="MediumPurple">
-        <Label Content="Єто тьі большая вредная жопа?"
+        <Label Content="You're such a sad little potato I see!"
                Margin="100"
-               FontSize="28"
+               FontSize="26"
                Width="450"
                Foreground="Black"
                HorizontalContentAlignment="Center"/>
         <Button Name="bYes"
-                Content="ДА"
+                Content="YES"
                 Foreground="Black"
                 HorizontalContentAlignment="Center"
                 VerticalContentAlignment="Center"
@@ -32,7 +32,7 @@
                 Click="bYes_Click"/>
 
         <Button Name="bNo"
-                Content="НЕ"
+                Content="NO"
                 Foreground="Black"
                 HorizontalContentAlignment="Center"
                 VerticalContentAlignment="Center"

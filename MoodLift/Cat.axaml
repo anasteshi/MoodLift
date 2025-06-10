@@ -13,19 +13,19 @@
         ExtendClientAreaToDecorationsHint="True"
         ExtendClientAreaChromeHints="NoChrome">
     <Grid Background="DarkOrchid">
-        <Image Source="/Assets/IMG_1438.PNG">
+        <Image Source="/Assets/cat.png">
         </Image>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="30">
             <Label HorizontalContentAlignment="Center" 
                    FontSize="18"
                    FontWeight="DemiBold"
                    Foreground="White"
-                   Content="Прям как он..."/>
+                   Content="Look at that kitty!"/>
             <Label HorizontalContentAlignment="Center"
                    FontSize="18"
                    FontWeight="DemiBold"
                    Foreground="White"
-                   Content="Видишь, тьі не один"/>
+                   Content="Don't be sad boo!"/>
             <Label HorizontalContentAlignment="Center"
                    FontSize="50"
                    FontWeight="DemiBold"
